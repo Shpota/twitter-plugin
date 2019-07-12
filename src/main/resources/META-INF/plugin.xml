@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.sashashpota.twitter-plugin</id>
+    <name>Twitter Integration</name>
+    <vendor email="sashashpota@gmail.com" url="https://sashashpota.com">Oleksandr Shpota</vendor>
+
+    <description><![CDATA[
+    Select a piece of code and tweet instantly via right mouse click.
+    ]]></description>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group id="PostTweetGroup">
+            <add-to-group group-id="EditorPopupMenu"/>
+            <add-to-group group-id="ConsoleEditorPopupMenu"/>
+            <action class="com.sashashpota.twitter.PostTweetAction" id="PostTweetAction" text="Tweet"/>
+        </group>
+    </actions>
+</idea-plugin>
