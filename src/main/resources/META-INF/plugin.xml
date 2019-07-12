@@ -17,4 +17,6 @@
             <action class="com.sashashpota.twitter.PostTweetAction" id="PostTweetAction" text="Tweet"/>
         </group>
     </actions>
+
+    <depends>com.intellij.modules.lang</depends>
 </idea-plugin>
