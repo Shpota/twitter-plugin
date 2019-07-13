@@ -6,6 +6,12 @@ plugins {
 group 'com.sashashpota'
 version '1.0'
 
+apply plugin: 'jacoco'
+
+jacoco {
+    toolVersion = "0.8.2"
+}
+
 sourceCompatibility = 1.8
 
 repositories {
@@ -13,7 +19,8 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-all:1.10.19'
 }
 
 intellij {
@@ -27,3 +34,12 @@ patchPluginXml {
         </ul>
     """
 }
+
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled false
+    }
+}
+
+check.dependsOn jacocoTestReport

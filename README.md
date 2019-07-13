@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/Shpota/twitter-plugin.svg?branch=master)](https://travis-ci.com/Shpota/twitter-plugin)
+[![codecov](https://codecov.io/gh/Shpota/twitter-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/Shpota/twitter-plugin)
 
 IntelliJ Twitter Integration
 ============================
