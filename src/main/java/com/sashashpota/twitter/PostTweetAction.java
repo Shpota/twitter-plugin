@@ -12,17 +12,12 @@ import java.io.UnsupportedEncodingException;
 
 import static com.intellij.ide.BrowserUtil.browse;
 import static com.intellij.openapi.actionSystem.CommonDataKeys.EDITOR;
-import static com.intellij.openapi.util.IconLoader.getIcon;
 import static java.net.URLEncoder.encode;
 import static org.apache.commons.lang.StringUtils.isBlank;
 
 public class PostTweetAction extends AnAction {
 
     private static final String TWITTER_INTENT_URL = "https://twitter.com/intent/tweet?text=";
-
-    public PostTweetAction() {
-        super(getIcon("icon/menuIcon.png"));
-    }
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent event) {

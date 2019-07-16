@@ -14,7 +14,8 @@
         <group id="PostTweetGroup">
             <add-to-group group-id="EditorPopupMenu"/>
             <add-to-group group-id="ConsoleEditorPopupMenu"/>
-            <action class="com.sashashpota.twitter.PostTweetAction" id="PostTweetAction" text="Tweet"/>
+            <action id="PostTweetAction" class="com.sashashpota.twitter.PostTweetAction"
+                    text="Tweet" icon="/icon/menuIcon.png"/>
         </group>
     </actions>
 
