@@ -7,11 +7,18 @@ An IntelliJ IDE plugin that helps posting code to Twitter.
 
 ## How to use
 Select a piece of code, right click and choose "Tweet" in the context menu.
- 
+
 ![Showcase](examples/showcase.gif)
 
+## How to install
+Go to `Settings` > `Plugins` > `Marketplace` tab > 
+search for `Twitter Integration` > press the `Install` button.
+![Installation](examples/install.png)
+You can also find the plugin in
+[JetBrains Plugin Repository](https://plugins.jetbrains.com/plugin/12729-twitter-integration).
+
 ## Supported IDEs
-The plugin supports all Idea based IDEs:
+The plugin is compatible with all IntelliJ-based IDEs with build versions 2019.1 and higher:
 - Android Studio
 - CLion
 - DataGrip
