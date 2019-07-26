@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.sashashpota'
-version '1.0.1'
+version '1.0.2'
 
 apply plugin: 'jacoco'
 
@@ -29,9 +29,10 @@ intellij {
 
 patchPluginXml {
     sinceBuild '162'
+    untilBuild null
     changeNotes"""
         <ul>
-          <li>Support older versions of IntelliJ Platform</li>
+          <li>Support IntelliJ Platform 2019.2</li>
         </ul>
     """
 }
