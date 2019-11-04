@@ -1,6 +1,6 @@
-IntelliJ Twitter Integration [![Build Status](https://travis-ci.com/Shpota/twitter-plugin.svg?branch=master)](https://travis-ci.com/Shpota/twitter-plugin) [![codecov](https://codecov.io/gh/Shpota/twitter-plugin/branch/master/graph/badge.svg)](https://codecov.io/gh/Shpota/twitter-plugin) [![Join the chat at https://gitter.im/twitter-plugin/community](https://badges.gitter.im/twitter-plugin/community.svg)](https://gitter.im/twitter-plugin/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+IntelliJ Twitter Integration [![](https://img.shields.io/jetbrains/plugin/v/12729-twitter-integration)](https://plugins.jetbrains.com/plugin/12729-twitter-integration) [![](https://badges.gitter.im/twitter-plugin/community.svg)](https://gitter.im/twitter-plugin/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![](https://travis-ci.com/Shpota/twitter-plugin.svg?branch=master)](https://travis-ci.com/Shpota/twitter-plugin) [![](https://img.shields.io/codecov/c/github/Shpota/twitter-plugin?color=green&logo=test%20coverage)](https://codecov.io/gh/Shpota/twitter-plugin)
 ============================
-An IntelliJ IDE plugin that helps you post code to Twitter.
+An IntelliJ IDE plugin that helps post code to Twitter.
 
 ## How to use
 Select a piece of code, right click and choose "Tweet" in the context menu.
