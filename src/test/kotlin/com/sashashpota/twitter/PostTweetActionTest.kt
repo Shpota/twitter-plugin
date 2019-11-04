@@ -13,7 +13,7 @@ import org.mockito.Mockito.mock
 
 class PostTweetActionTest {
     @Test
-    fun shouldUpdateVisibility() {
+    fun `should update visibility`() {
         val action = PostTweetAction()
         val event = mock(AnActionEvent::class.java)
         val editor = mock(Editor::class.java)
@@ -32,7 +32,7 @@ class PostTweetActionTest {
     }
 
     @Test
-    fun shouldUpdateVisibilityGivenBlankSelectedText() {
+    fun `should update visibility given blank selectedText`() {
         val action = PostTweetAction()
         val event = mock(AnActionEvent::class.java)
         val editor = mock(Editor::class.java)
@@ -51,7 +51,7 @@ class PostTweetActionTest {
     }
 
     @Test
-    fun shouldUpdateVisibilityGivenNullEditor() {
+    fun `should update visibility given null editor`() {
         val action = PostTweetAction()
         val event = mock(AnActionEvent::class.java)
         val presentation = Presentation()
